@@ -26,21 +26,21 @@ namespace ConsoleApp2
                     }
                     if (option == "3")
                     {
-                        Console.Write(c1.add(c1.number1, c1.number2));
+                        Console.Write(c1.add());
                     }
                     if (option == "4")
                     {
-                        Console.Write(c1.subtract(c1.number1, c1.number2));
+                        Console.Write(c1.subtract());
                     }
                     if (option == "5")
                     {
-                        Console.Write(c1.multiply(c1.number1, c1.number2));
+                        Console.Write(c1.multiply());
                     }
                     if (option == "6")
                     {
                         try
                         { 
-                            Console.Write(c1.divide(c1.number1, c1.number2));
+                            Console.Write(c1.divide());
                         }
                         catch(DivideByZeroException) 
                         {
@@ -51,7 +51,7 @@ namespace ConsoleApp2
                     {
                         try
                         {
-                            Console.Write(c1.mod(c1.number1, c1.number2));
+                            Console.Write(c1.mod());
                         }
                         catch (DivideByZeroException)
                         {

@@ -15,30 +15,30 @@ namespace ConsoleApp2
             number1 = 10;
             number2 = 10;
         }
-        public calculator(int n1, int n2)
+        public calculator()
         {
             number1 = 10;
             number2 = 10;
         }
-        public int add(int n1 , int n2)
+        public int add()
         {
-            return n1 + n2;
+            return number1 + number2;
         }
-        public int subtract(int n1, int n2)
+        public int subtract()
         {
-            return n1 - n2;
+            return number1 - number2;
         }
-        public int multiply(int n1, int n2)
+        public int multiply()
         {
-            return n1 * n2;
+            return number1 * number2;
         }
-        public int divide(int n1, int n2)
+        public int divide()
         {
-            return n1 / n2;
+            return number1 / number2;
         }
-        public int mod(int n1, int n2)
+        public int mod()
         {
-            return n1 % n2;
+            return number1 % number2;
         }
 
     }
