@@ -42,6 +42,7 @@ namespace task3
             else
             {
                 array.Add(words);
+                return true;
             }
             return check;
         }
